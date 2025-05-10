@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="stylesheet" href="./CSS/game.css">
+    <title>Document</title>
+</head>
+<body>
+    <span id="loader"></span>
+    <div id="container">
+        <div class="header">
+            <h4 id="error"> Something went wrong | Please try again</h4>
+            <div>
+                <p>Qustion No:</p>
+                <span id="qustion-number">1</span>
+            </div>
+            <div>
+                <p>Score:</p>
+                <span id="Score">0</span>
+            </div>
+        </div>
+        <div id="qustion-box">
+            <h3 id="qustion-text">qustion text</h3>
+            <button class="answer-text"></button>
+            <button class="answer-text"></button>
+            <button class="answer-text"></button>
+            <button class="answer-text"></button> 
+        </div>
+        <button id="finish-button">Finish</button>
+        <button id="next-button">Next </button>
+    </div>
+    <script src="./JS/game.js" type="module"></script>
+    <script src="./JS/helper.js" type="module"></script>
+</body>
+</html>
